@@ -15,6 +15,7 @@ class bob
 		
 		this.body=Bodies.circle(this.x, this.y, (this.r)/2, options)
 		World.add(world, this.body);
+		console.log(this.body);
 
 	}
 	display()
